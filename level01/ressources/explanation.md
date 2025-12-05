@@ -1,0 +1,2 @@
+-pour ce deuxieme niveau on trouve un mdp hacher dans le fichier /etc/passwd qui liste tout les users
+-pour cracker ce mpd on utilise le programme john the ripper, on le clone de github et l'execute sur un fichier contenant notre mdp
