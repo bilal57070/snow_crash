@@ -1,0 +1,4 @@
+-le premeir but de l'exercice est de trouver le fichier qui s'execute en tant que flag00 (cf la video de l'intra), pour se faire on utilise la commande find / -user flag00 2>/dev/null 
+-en gros la commande cherche a la racine tout les fichiers appartenant a flag00 (et jette les refus de permission a la poubelle)
+-on trouve donc un fichier qui lorsqu'on cat dessus nous donne un mdp, ce mdp est chiffrer on le dechiffre ici http://dcode.fr/chiffre-affine
+-grace a ce mdp on se connecte a la session flag00 ( su flag00) puis on recup le flag avec getflag et on va au level01
