@@ -11,8 +11,10 @@ le programme vérifie l’UID avec getuid() avant d’exécuter getflag
 ### Exploitation
 On utilise gdb pour modifier la valeur de retour de getuid()
 
+```bash
 break getuid
 run
 finish
 set $eax = 4242
 continue
+```

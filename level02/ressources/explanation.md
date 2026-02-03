@@ -1,1 +1,0 @@
-dans ce niveau on nous donne un fichier pcap, c'est un type de fichier qui contient les donnees en paquet d'un reseau, pour lire ce fichier on utilise tcpdump (flag -A -r), on lit caractere par caractere le mdp sachant que le . signifie la suppression. On peut faire la meme manip avec wireshark (plus lisible) 

